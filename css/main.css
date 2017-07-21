@@ -7,25 +7,25 @@ svg {
   margin: auto;
   height: 900px; }
 
-#woodworking .wedge-right {
+#woodworking .right {
   fill: #ff4433; }
-#woodworking .wedge-top {
+#woodworking .top {
   fill: #ff5b4d; }
-#woodworking .wedge-left {
+#woodworking .left {
   fill: #ff1500; }
 
-#tom .wedge-right {
+#tom .right {
   fill: #ff9933; }
-#tom .wedge-top {
+#tom .top {
   fill: #ff8c1a; }
-#tom .wedge-left {
+#tom .left {
   fill: #ff7f00; }
 
-#programming .wedge-right {
+#programming .right {
   fill: #ffc51a; }
-#programming .wedge-top {
+#programming .top {
   fill: #ffd24d; }
-#programming .wedge-left {
+#programming .left {
   fill: #ffbf00; }
 
 #play circle {
