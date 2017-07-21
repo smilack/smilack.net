@@ -1,0 +1,13 @@
+{
+   "name": "smilack.net",
+   "version": "0.0.0",
+   "scripts": {
+      "start": "babel src/main.js --watch --out-file lib/main.js --source-maps",
+      "build": "babel src -d lib"
+   },
+   "devDependencies": {
+      "babel-cli": "^6.24.1",
+      "babel-preset-env": "^1.6.0",
+      "babel-watch": "^2.0.7"
+   }
+}
