@@ -9,6 +9,17 @@
  <body>
   <svg viewBox="-600 -400 1225 825"
     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <defs>
+    <filter id="hover-blur" x="-100" y="-100" width="200" height="200">
+     <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" result="blur1" />
+     <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur2" />
+     <feMerge>
+      <feMergeNode in="blur1"/>
+      <feMergeNode in="blur2"/>
+     </feMerge>
+    </filter>
+   </defs>
+
    <g id="woodworking" transform="rotate(33 -360 -120) translate(-360 -120)">
     <g class="debug" cx="0" cy="0">
      <circle r="130" />
