@@ -1,0 +1,68 @@
+body {
+  font-family: 'segoe ui', 'lucida grande', 'verdana';
+  font-size: 20pt; }
+
+svg {
+  display: block;
+  margin: auto;
+  height: 900px; }
+
+#woodworking .wedge-right {
+  fill: #ff4433; }
+#woodworking .wedge-top {
+  fill: #ff5b4d; }
+#woodworking .wedge-left {
+  fill: #ff1500; }
+
+#tom .wedge-right {
+  fill: #ff9933; }
+#tom .wedge-top {
+  fill: #ff8c1a; }
+#tom .wedge-left {
+  fill: #ff7f00; }
+
+#programming .wedge-right {
+  fill: #ffc51a; }
+#programming .wedge-top {
+  fill: #ffd24d; }
+#programming .wedge-left {
+  fill: #ffbf00; }
+
+#play circle {
+  fill: #761300; }
+
+#wedding circle {
+  fill: #2196f3; }
+
+use {
+  stroke: #0000ff;
+  stroke-width: 4; }
+
+.arc,
+.debug,
+.mouseover.link {
+  stroke-width: 2;
+  fill-opacity: 0;
+  display: none; }
+
+.arc {
+  stroke: green; }
+
+.debug {
+  stroke: blue; }
+
+.mouseover.link {
+  stroke: purple; }
+
+text {
+  font-family: "Segoe UI", sans-serif;
+  fill: #761300; }
+
+#title text {
+  font-size: 1.375em;
+  font-weight: bold; }
+
+#title text:first-child {
+  font-size: 1.625em; }
+
+/*# sourceMappingURL=main.css.map */
