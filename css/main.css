@@ -35,8 +35,9 @@ svg {
   fill: #2196f3; }
 
 use {
-  stroke: #0000ff;
-  stroke-width: 4; }
+  stroke: #2196f3;
+  stroke-width: 4;
+  filter: url(#hover-blur); }
 
 .arc,
 .debug,
