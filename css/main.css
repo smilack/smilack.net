@@ -1,5 +1,5 @@
 body {
-  font-family: 'segoe ui', 'lucida grande', 'verdana';
+  font-family: 'Work Sans', 'Segoe UI', sans-serif;
   font-size: 20pt; }
 
 #svg-container {
@@ -43,12 +43,10 @@ svg {
   fill: #2196f3; }
 
 text {
-  font-family: "Segoe UI", sans-serif;
   fill: #761300; }
 
 #title text {
-  font-size: 1.125em;
-  font-weight: bold; }
+  font-size: 1.125em; }
 
 #title text:first-child {
   font-size: 1.625em; }
