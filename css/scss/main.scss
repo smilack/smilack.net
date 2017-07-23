@@ -40,7 +40,7 @@ svg {
 
 #wedding circle { fill: #2196f3; }
 
-use:hover {
+.wedge:hover {
    stroke: #2196f3;
    stroke-width: 4;
    filter: url(#hover-blur);
@@ -56,6 +56,7 @@ use:hover {
 
 .arc {
    stroke: green;
+   pointer-events: none;
 }
 
 .debug {
@@ -64,6 +65,7 @@ use:hover {
 
 .mouseover.link {
    stroke: purple;
+   pointer-events: none;
 }
 
 text {

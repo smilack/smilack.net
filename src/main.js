@@ -7,20 +7,7 @@ function init() {
 }
 
 function onElementMouseEnter(event) {
-   var wedge = event.target,
-       use = getUse(wedge);
+   var wedge = event.target;
    
-   if(use !== null) {
-      use.setAttribute("href", "#" + wedge.id);
-   }
-}
-
-function getUse(wedge) {
-   var use = null;
-
-   if(wedge.parentElement !== null) {
-      use = wedge.parentElement.getElementsByTagName("use")[0];
-   }
-
-   return use;
+   wedge.parentElement.append(wedge);
 }
