@@ -50,19 +50,24 @@ svg {
   stroke-width: 4;
   filter: url(#hover-blur); }
 
+.mouseover-region {
+  stroke: black;
+  fill-opacity: 0.5; }
+
 .arc,
 .debug,
 .mouseover.link {
   stroke-width: 2;
-  fill-opacity: 0;
-  opacity: 0; }
+  fill-opacity: 0.5;
+  opacity: 0.5; }
 
 .arc {
   stroke: green;
   pointer-events: none; }
 
 .debug {
-  stroke: blue; }
+  stroke: blue;
+  fill-opacity: 0; }
 
 .mouseover.link {
   stroke: purple;
