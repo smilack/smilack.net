@@ -64,6 +64,10 @@ text {
    filter: url(#hover-blur);
 }
 
+.link:hover text {
+   fill: #2196f3;
+}
+
 .mouseover-region {
    opacity: 0;
    fill-opacity: 0;
