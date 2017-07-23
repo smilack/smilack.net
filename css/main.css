@@ -42,7 +42,10 @@ svg {
 #wedding circle {
   fill: #2196f3; }
 
-.wedge:hover {
+.links {
+  text-anchor: middle; }
+
+.link:hover .wedge {
   stroke: #2196f3;
   stroke-width: 4;
   filter: url(#hover-blur); }

@@ -19,62 +19,58 @@
       </feMerge>
      </filter>
     </defs>
- 
+
+    <!-- Red circle -->
     <g id="woodworking" transform="rotate(33 -360 -120) translate(-360 -120)">
      <g class="debug" cx="0" cy="0">
       <circle r="130" />
       <circle r="155" />
-      <circle r="180" />
-      <circle r="200" />
+      <circle r="175" />
      </g>
- 
-     <g transform="scale(1.3)">
-      <path d="M 0 0 L   0   100 A 100,100 0 0,0  86.6,-50 z" class="wedge right" id="woodworking-wedge-a" />
-      <path d="M 0 0 L  86.6 -50 A 100,100 0 0,0 -86.6,-50 z" class="wedge top"   id="woodworking-wedge-b" />
-      <path d="M 0 0 L -86.6 -50 A 100,100 0 0,0   0,  100 z" class="wedge left"  id="woodworking-wedge-c" />
-     </g>
- 
-     <g class="arc">
-      <path d="M    0     180   A 180,180 0 0,0  155.88,-90  " id="woodworking-arc-a" />
+
+     <defs>
+      <path d="M    0     175   A 175,175 0 0,0  151.55,-87.5" id="woodworking-arc-a" />
       <path d="M -134.23  -77.5 A 155,155 0 0,1  134.23,-77.5" id="woodworking-arc-b" />
       <path d="M    0     155   A 155,155 0 0,1 -134.23,-77.5" id="woodworking-arc-c" />
-     </g>
- 
-     <g text-anchor="middle">
-      <text>
-       <textPath href="#woodworking-arc-a" startOffset="50%">
-        aaaaaaa
-       </textPath>
-      </text>
- 
-      <text>
-       <textPath href="#woodworking-arc-b" startOffset="50%">
-        bbbbbbb
-       </textPath>
-      </text>
- 
-      <text>
-       <textPath href="#woodworking-arc-c" startOffset="50%">
-        ccccccc
-       </textPath>
-      </text>
-     </g>
- 
-     <g class="mouseover link">
-      <a href="#">
-       <path d="M 0 0 L 0 200 A 200,200 0 0,0 173.21 -100 Z" id="woodworking-mouseover-a" />
+     </defs>
+
+     <g class="links">
+      <a class="link">
+       <title>aaaaaaa</title>
+       <path d="M 0 0 L 0 175 A 175,175 0 0,0 151.55 -87.5 Z" class="mouseover-region" />
+       <path d="M 0 0 L 0 130 A 130,130 0 0,0 112.58,-65   Z" class="wedge right" />
+       <text>
+        <textPath startOffset="50%" href="#woodworking-arc-a">
+         aaaaaaa
+        </textPath>
+       </text>
       </a>
- 
-      <a href="#">
-       <path d="M 0 0 L 173.21 -100 A 200,200 0 0,0 -173.21,-100 Z" id="woodworking-mouseover-b" />
+
+      <a class="link">
+       <title>bbbbbbb</title>
+       <path d="M 0 0 L 151.55 -87.5 A 175,175 0 0,0 -151.55,-87.5 Z" class="mouseover-region" />
+       <path d="M 0 0 L 112.58 -65   A 130,130 0 0,0 -112.58,-65   Z" class="wedge top" />
+       <text>
+        <textPath startOffset="50%" href="#woodworking-arc-b">
+         bbbbbbb
+        </textPath>
+       </text>
       </a>
- 
-      <a href="#">
-       <path d="M 0 0 L -173.21 -100 A 200,200 0 0,0 0 200 Z" id="woodworking-mouseover-c" />
+
+      <a class="link">
+       <title>ccccccc</title>
+       <path d="M 0 0 L -151.55 -87.5 A 175,175 0 0,0 0 175 Z" class="mouseover-region" />
+       <path d="M 0 0 L -112.58 -65   A 130,130 0 0,0 0,130 Z" class="wedge left" />
+       <text>
+        <textPath startOffset="50%" href="#woodworking-arc-c">
+         ccccccc
+        </textPath>
+       </text>
       </a>
      </g>
     </g>
  
+    <!-- Orange circle -->
     <g id="tom" transform="rotate(-10 30 160) translate(30 160)">
      <g class="debug" cx="0" cy="0">
       <circle r="175" />

@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", init);
 
 function init() {
-   var wedges = Object.values(document.getElementsByClassName("wedge"));
+   var links = Array.from(document.getElementsByClassName("link"));
 
-   wedges.map(wedge => wedge.addEventListener("mouseenter", onElementMouseEnter));
+   links.map(link => link.addEventListener("mouseenter", onElementMouseenter));
 }
 
-function onElementMouseEnter(event) {
-   var wedge = event.target;
+function onElementMouseenter(event) {
+   var link = event.target;
    
-   wedge.parentElement.append(wedge);
+   link.parentElement.append(link);
 }
