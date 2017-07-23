@@ -36,10 +36,10 @@ svg {
 #programming .left {
   fill: #ffbf00; }
 
-#play circle {
+#play .wedge {
   fill: #761300; }
 
-#wedding circle {
+#wedding .wedge {
   fill: #2196f3; }
 
 .links {
