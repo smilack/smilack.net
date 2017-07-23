@@ -77,54 +77,58 @@
       <circle r="200" />
       <circle r="220" />
      </g>
- 
-     <g transform="scale(1.75)">
-      <path d="M 0 0 L   0   100 A 100,100 0 0,0  86.6,-50 z" class="wedge right" id="tom-wedge-a" />
-      <path d="M 0 0 L  86.6 -50 A 100,100 0 0,0 -86.6,-50 z" class="wedge top"   id="tom-wedge-b" />
-      <path d="M 0 0 L -86.6 -50 A 100,100 0 0,0   0,  100 z" class="wedge left"  id="tom-wedge-c" />
-     </g>
- 
-     <g class="arc">
+
+     <defs>
       <path d="M    0     225   A 225,225 0 0,0  194.86,-112.5" id="tom-arc-a" />
       <path d="M -173.21 -100   A 200,200 0 0,1  173.21,-100  " id="tom-arc-b" />
       <path d="M -194.86 -112.5 A 225,225 0 0,0    0,    225  " id="tom-arc-c" />
-     </g>
- 
-     <g text-anchor="middle">
-      <text>
-       <textPath href="#tom-arc-a" startOffset="50%">
-        aaaaaaa
-       </textPath>
-      </text>
- 
-      <text>
-       <textPath href="#tom-arc-b" startOffset="50%">
-        bbbbbbb
-       </textPath>
-      </text>
- 
-      <text>
-       <textPath href="#tom-arc-c" startOffset="50%">
-        ccccccc
-       </textPath>
-      </text>
-     </g>
- 
-     <g class="mouseover link">
-      <a href="#">
-       <path d="M 0 0 L 0,245 A 245,245 0 0,0 212.18,-122.5 Z" id="tom-mouseover-a" />
+     </defs>
+
+      <path d="M 0 0 L 0,245 A 245,245 0 0,0 212.18,-122.5 Z" id="tom-mouseover-a" />
+      <path d="M 0 0 L 212.18,-122.5 A 245,245 0 0,0 -212.18,-122.5 Z" id="tom-mouseover-b" />
+      <path d="M 0 0 L -212.18,-122.5 A 245,245 0 0,0 0,245 Z" id="tom-mouseover-c" />
+      
+      <path d="M 0 0 L   0   100 A 100,100 0 0,0  86.6,-50 z" class="wedge right" id="tom-wedge-a" />
+      <path d="M 0 0 L  86.6 -50 A 100,100 0 0,0 -86.6,-50 z" class="wedge top"   id="tom-wedge-b" />
+      <path d="M 0 0 L -86.6 -50 A 100,100 0 0,0   0,  100 z" class="wedge left"  id="tom-wedge-c" />
+
+     <g class="links">
+      <a class="link">
+       <title>aaaaaaa</title>
+       <path d="" class="mouseover-region" />
+       <path d="" class="wedge right" />
+       <text>
+        <textPath startOffset="50%" href="#tom-arc-a">
+         aaaaaaa
+        </textPath>
+       </text>
       </a>
- 
-      <a href="#">
-       <path d="M 0 0 L 212.18,-122.5 A 245,245 0 0,0 -212.18,-122.5 Z" id="tom-mouseover-b" />
+     
+      <a class="link">
+       <title>bbbbbbb</title>
+       <path d="" class="mouseover-region" />
+       <path d="" class="wedge top" />
+       <text>
+        <textPath startOffset="50%" href="#tom-arc-b">
+         bbbbbbb
+        </textPath>
+       </text>
       </a>
- 
-      <a href="#">
-       <path d="M 0 0 L -212.18,-122.5 A 245,245 0 0,0 0,245 Z" id="tom-mouseover-c" />
+     
+      <a class="link">
+       <title>ccccccc</title>
+       <path d="" class="mouseover-region" />
+       <path d="" class="wedge left" />
+       <text>
+        <textPath startOffset="50%" href="#tom-arc-c">
+         ccccccc
+        </textPath>
+       </text>
       </a>
      </g>
     </g>
- 
+
+    <!-- Yellow circle -->
     <g id="programming" transform="rotate(45 375 -175) translate(375 -175)">
      <g class="debug" cx="0" cy="0">
       <circle r="137.5" />
