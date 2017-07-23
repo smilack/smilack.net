@@ -1,0 +1,78 @@
+@import 'main';
+
+#svg-container {
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+}
+
+svg {
+   display: block;
+   margin: auto;
+   height: 100%;
+   max-width: 100%;
+}
+
+#woodworking {
+   .right { fill: #ff4433; }
+   .top   { fill: #ff5b4d; }
+   .left  { fill: #ff1500; }
+}
+
+#tom {
+   .right { fill: #ff9933; }
+   .top   { fill: #ff8c1a; }
+   .left  { fill: #ff7f00; }
+}
+
+#programming {
+   .right { fill: #ffc51a; }
+   .top   { fill: #ffd24d; }
+   .left  { fill: #ffbf00; }
+}
+
+#play .wedge { fill: #761300; }
+
+#wedding .wedge { fill: #2196f3; }
+
+text {
+   fill: $font-color;
+}
+
+#title text {
+   font-size: 1.125em;
+}
+
+#title text:first-child {
+   font-size: 1.625em;
+}
+
+.links,
+#title text {
+   text-anchor: middle;
+}
+
+.link:hover .wedge {
+   stroke: $link-color;
+   stroke-width: 4;
+   filter: url(#hover-blur);
+}
+
+.link:hover text {
+   fill: $link-color;
+}
+
+.mouseover-region {
+   opacity: 0;
+   fill-opacity: 0;
+}
+
+.debug {
+   display: none;
+}
+
+a:not(.link) {
+/*   display: none;*/
+}

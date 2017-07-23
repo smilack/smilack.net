@@ -1,73 +1,9 @@
 body {
   font-family: 'Work Sans', 'Segoe UI', sans-serif;
-  font-size: 20pt; }
+  font-size: 20pt;
+  color: #761300; }
 
-#svg-container {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0; }
-
-svg {
-  display: block;
-  margin: auto;
-  height: 100%;
-  max-width: 100%; }
-
-#woodworking .right {
-  fill: #ff4433; }
-#woodworking .top {
-  fill: #ff5b4d; }
-#woodworking .left {
-  fill: #ff1500; }
-
-#tom .right {
-  fill: #ff9933; }
-#tom .top {
-  fill: #ff8c1a; }
-#tom .left {
-  fill: #ff7f00; }
-
-#programming .right {
-  fill: #ffc51a; }
-#programming .top {
-  fill: #ffd24d; }
-#programming .left {
-  fill: #ffbf00; }
-
-#play .wedge {
-  fill: #761300; }
-
-#wedding .wedge {
-  fill: #2196f3; }
-
-text {
-  fill: #761300; }
-
-#title text {
-  font-size: 1.125em; }
-
-#title text:first-child {
-  font-size: 1.625em; }
-
-.links,
-#title text {
-  text-anchor: middle; }
-
-.link:hover .wedge {
-  stroke: #2196f3;
-  stroke-width: 4;
-  filter: url(#hover-blur); }
-
-.link:hover text {
-  fill: #2196f3; }
-
-.mouseover-region {
-  opacity: 0;
-  fill-opacity: 0; }
-
-.debug {
-  display: none; }
+a:link {
+  color: #2196f3; }
 
 /*# sourceMappingURL=main.css.map */
