@@ -6,4 +6,14 @@ body {
 a:link {
   color: #2196f3; }
 
+body {
+  margin: 0; }
+
+header.woodworking {
+  background: #ff1500; }
+header.tom {
+  background: #ff7f00; }
+header.programming {
+  background: #ffbf00; }
+
 /*# sourceMappingURL=article.css.map */

@@ -18,24 +18,24 @@ svg {
 #woodworking {
    .right { fill: #ff4433; }
    .top   { fill: #ff5b4d; }
-   .left  { fill: $woodworking-color-a; }
+   .left  { fill: $woodworking-color; }
 }
 
 #tom {
    .right { fill: #ff9933; }
    .top   { fill: #ff8c1a; }
-   .left  { fill: $tom-color-a; }
+   .left  { fill: $tom-color; }
 }
 
 #programming {
    .right { fill: #ffc51a; }
    .top   { fill: #ffd24d; }
-   .left  { fill: $programming-color-a; }
+   .left  { fill: $programming-color; }
 }
 
-#play .wedge { fill: #761300; }
+#play .wedge { fill: $play-color; }
 
-#wedding .wedge { fill: #2196f3; }
+#wedding .wedge { fill: $wedding-color; }
 
 text {
    fill: $font-color;
