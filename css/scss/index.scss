@@ -16,21 +16,21 @@ svg {
 }
 
 #woodworking {
-   .right { fill: #ff4433; }
+   .right { fill: $woodworking-color; }
    .top   { fill: #ff5b4d; }
-   .left  { fill: $woodworking-color; }
+   .left  { fill: #ff1500; }
 }
 
 #tom {
-   .right { fill: #ff9933; }
+   .right { fill: $tom-color; }
    .top   { fill: #ff8c1a; }
-   .left  { fill: $tom-color; }
+   .left  { fill: #ff7f00; }
 }
 
 #programming {
-   .right { fill: #ffc51a; }
+   .right { fill: $programming-color; }
    .top   { fill: #ffd24d; }
-   .left  { fill: $programming-color; }
+   .left  { fill: #ffbf00; }
 }
 
 #play .wedge { fill: $play-color; }
