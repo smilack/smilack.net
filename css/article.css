@@ -7,13 +7,28 @@ a:link {
   color: #2196f3; }
 
 body {
-  margin: 0; }
+  margin: 0 auto;
+  max-width: 1200px; }
 
-header.woodworking {
+header.woodworking nav {
   background: #ff1500; }
-header.tom {
+header.tom nav {
   background: #ff7f00; }
-header.programming {
+header.programming nav {
   background: #ffbf00; }
+header.play nav {
+  background: #761300; }
+header nav {
+  padding: 1rem 3rem;
+  border-bottom-radius: 20px;
+  display: flex;
+  justify-content: space-between; }
+
+.portrait {
+  background-clip: content-box;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  float: right; }
 
 /*# sourceMappingURL=article.css.map */

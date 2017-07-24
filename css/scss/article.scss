@@ -1,13 +1,30 @@
 @import 'main';
 
 body {
-   margin: 0;
+   margin: 0 auto;
+   max-width: 1200px;
 }
 
 header {
+   &.woodworking nav { background: $woodworking-color; }
+   &.tom nav { background: $tom-color; }
+   &.programming nav { background: $programming-color; }
+   &.play nav { background: $play-color; }
 
-   &.woodworking { background: $woodworking-color; }
-   &.tom { background: $tom-color; }
-   &.programming { background: $programming-color; }
+   nav {
+      padding: 1rem 3rem;
 
+      border-bottom-radius: 20px;
+
+      display: flex;
+      justify-content: space-between;
+   }
+}
+
+.portrait {
+   background-clip: content-box;
+   border-radius: 100%;
+   width: 400px;
+   height: 400px;
+   float: right;
 }
