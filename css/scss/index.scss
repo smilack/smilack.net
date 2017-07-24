@@ -18,19 +18,19 @@ svg {
 #woodworking {
    .right { fill: #ff4433; }
    .top   { fill: #ff5b4d; }
-   .left  { fill: #ff1500; }
+   .left  { fill: $woodworking-color-a; }
 }
 
 #tom {
    .right { fill: #ff9933; }
    .top   { fill: #ff8c1a; }
-   .left  { fill: #ff7f00; }
+   .left  { fill: $tom-color-a; }
 }
 
 #programming {
    .right { fill: #ffc51a; }
    .top   { fill: #ffd24d; }
-   .left  { fill: #ffbf00; }
+   .left  { fill: $programming-color-a; }
 }
 
 #play .wedge { fill: #761300; }
