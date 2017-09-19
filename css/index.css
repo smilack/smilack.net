@@ -4,7 +4,7 @@ body {
   color: #761300; }
 
 a:link {
-  color: #2196f3; }
+  color: #1565c0; }
 
 #svg-container {
   position: absolute;
@@ -60,12 +60,12 @@ text {
   text-anchor: middle; }
 
 .link:hover .wedge {
-  stroke: #2196f3;
+  stroke: #1565c0;
   stroke-width: 4;
   filter: url(#hover-blur); }
 
 .link:hover text {
-  fill: #2196f3; }
+  fill: #1565c0; }
 
 .mouseover-region {
   opacity: 0;
